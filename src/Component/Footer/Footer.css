@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    background-color:#3584cb;
+    width:100%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+.Useful-link{
+    /* text-align: center;  */
+    width: 50%;
+    /* padding: 40px; */
+}
+.Useful-link u{
+        text-decoration: none;
+}
+.Useful-link li{
+    list-style: none; 
+    line-height: 2rem;
+}
+.Medias{
+    width: 49%;
+}
