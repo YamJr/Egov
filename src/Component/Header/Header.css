@@ -1,0 +1,37 @@
+.Header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color:#3584cb;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.logo{
+        width: 39%;
+}
+.logo p{
+
+        color: white;
+        font-size:30px;
+        padding-left: 25px;
+}
+.nav-menu{
+    width: 60%;
+    padding-top: 1rem;
+}
+.nav-menu ul{
+    display: flex;
+    text-transform:capitalize;
+}
+.nav-menu li{
+    list-style: none;
+
+}
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+.nav-menu a:hover{
+    border-bottom: 1px solid white;
+}
