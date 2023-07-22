@@ -21,9 +21,8 @@
 .card-1{
     border: 1px solid rgb(163, 163, 163);
     margin: 10px 30px;
-    /* padding: 10px 30px; */
     text-align: center;
-    width: 30%;
+    width: 33%;
     height: 190px;
 }
 .card-1 p{
@@ -48,8 +47,7 @@
     padding: 9px;
   border: 1px solid rgb(163, 163, 163);
 }
-.Info th:hover,
-.Info td:hover{
-  border: 1px solid black;
-  transition: 0.3s;
+ .my-images{
+    width: 200px;
+    height: 150px;
 }

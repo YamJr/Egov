@@ -1,5 +1,6 @@
 import React from "react";
 import './Detail.css'
+import book from "../../images/book.jpg";
 
 function Detail(){
     return(
@@ -10,7 +11,7 @@ function Detail(){
                 <h4>government representatives</h4>
                     <div className="card">  
                 <div className="card-1">
-                            <p>Hellp</p>
+                            <img src={book.jpg} alt="book" className="my-images"/>
                             <p>President</p>
                             <p>AppleDog</p>
                         </div>
@@ -31,6 +32,7 @@ function Detail(){
 
 
             <div className="contact-info">
+                <p>Emergency Numbers:</p>
                 <table className="Info">
                     <thead>
                         <tr>
