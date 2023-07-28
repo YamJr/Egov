@@ -5,16 +5,21 @@
     background-color:#3584cb;
     margin-bottom: 30px;
     padding: 15px;
-
 }
 .logo{
         width: 39%;
+        display: flex;
 }
 .logo p{
 
         color: white;
-        font-size:30px;
-        padding-left: 25px;
+        font-size:20px;
+        float: right;
+        padding-top:20px ;
+}
+.logo img{
+    width: 90px;
+    height: auto;
 }
 .nav-menu{
     width: 60%;
@@ -34,5 +39,5 @@
     padding: 0 2rem;
 }
 .nav-menu a:hover{
-    border-bottom: 1px solid white;
+    font-size:17px;
 }

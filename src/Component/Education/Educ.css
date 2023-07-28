@@ -1,0 +1,39 @@
+.info-title{
+        text-align: center;
+        color:#3584cb;
+        font-size: 30px;
+        margin-bottom:15px;
+}
+.education-info{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.articles{
+    max-width: 50%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    border-bottom: 1px solid rgb(192, 191, 191);
+}
+.article-content {
+    width: 70%;
+    padding: 20px;
+}
+.article-content h5{
+    color: #3584cb;
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+.edu-images{
+    padding: 20px;
+    height: 200px;
+    width: auto;
+}

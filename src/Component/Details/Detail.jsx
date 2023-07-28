@@ -1,6 +1,7 @@
 import React from "react";
 import './Detail.css'
-import book from "../../images/book.jpg";
+import president from "../../images/president.jpg";
+import prime from "../../images/prime.jpg"
 
 function Detail(){
     return(
@@ -11,16 +12,18 @@ function Detail(){
                 <h4>government representatives</h4>
                     <div className="card">  
                 <div className="card-1">
-                            <img src={book.jpg} alt="book" className="my-images"/>
+                            <img src={president} alt="president" className="my-images"/>
                             <p>President</p>
                             <p>AppleDog</p>
                         </div>
                         <div className="card-1">
+                        <img src={prime} alt="prime" className="my-images"/>
                             <p>Hellp</p>
                             <p>President</p>
                             <p>AppleDog</p>
                         </div>
                         <div className="card-1">
+                        <img src={president} alt="president" className="my-images"/>
                             <p>Hellp</p>
                             <p>President</p>
                             <p>AppleDog</p>
