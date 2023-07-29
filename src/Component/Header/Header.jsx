@@ -13,7 +13,7 @@ function Header(){
             </div>
             <div className="nav-menu">
             <ul>
-          <li><a href="#">Trending</a></li>
+          <li><a href="#">Home</a></li>
           <li><a href="#">Government</a></li>
           <li><a href="#">Education</a></li>
           <li><a href="#">Bussiness</a></li>
