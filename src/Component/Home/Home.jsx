@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.css";
 import Mountain2 from "../../images/Mountain2.jpg"
 function Home(){

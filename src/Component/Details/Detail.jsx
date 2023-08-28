@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './Detail.css'
 import president from "../../images/president.jpg"
 import prime from "../../images/prime.jpg"
@@ -12,12 +12,19 @@ import birgunj from "../../images/birgunj.jpg"
 import assembly from "../../images/assembly.jpg"
 
 function Detail(){
+    const [showMore, setShowMore] = useState(false);
+
+    const toggleReadMore = () => {
+        setShowMore(!showMore);
+    }
+    
+      
     return(
         <>
-        <div className="section">
+        <div id="government" className="section">
             <div className="Govern">
                 <div className="gov-info">
-                <h4>government representatives</h4>
+                <h3>Government Representatives</h3>
                     <div className="card">  
                 <div className="card-1">
                             <img src={president} alt="president" className="my-images"/>
@@ -93,18 +100,28 @@ function Detail(){
                 </div>
 
                 <div className="aside-center">
-                            <div className="blog-rules">
-                                <img src={rules} alt="rule" className="rules-img" />
-                                <h3>Govt unveils 188-point policies and programs for FY 2023/24</h3>
-                                <ul className="list">
-                                    <li>The government has decided to either cancel or merge the development committees and funds that have duplication of work, are not working according to the purpose, and are irrelevant.</li>
-                                    <li>The government has also revealed that a national identity card number is required for opening a bank account, getting a vehicle license, issuing house design approval and getting a permanent account number.</li>
-                                    <li>the government is going to make arrangements to allow Nepalese citizens abroad to vote in periodic elections. The security agencies will be empowered by using modern technology to control all types of criminal activities including terrorism and organized crime, money laundering, violence, cyber-crime, illegal drug trafficking</li>
-                                    <li>In the policy and program, the matters related to health include implementation of one doctor and one health institution, to operate OPD services from 8 AM to 8 PM, and building a state-of-the-art hospital that can treat heart and cancer diseases at the provincial level.</li>
-
-                                </ul>
-                            </div>
+                <div className="blog-rules">
+                    <img src={rules} alt="rule" className="rules-img" />
+                    <h3>Govt unveils 188-point policies and programs for FY 2023/24</h3>
+                    <ul className="list">
+                        <li>The government has decided to either cancel or merge the development committees and funds that have duplication of work, are not working according to the purpose, and are irrelevant.</li>
+                        <li>The government has also revealed that a national identity card number is required for opening a bank account, getting a vehicle license, issuing house design approval and getting a permanent account number.</li>
+                        {/* Display additional content if showMore is true */}
+                        {showMore && (
+                            <ul className="read-more-content">
+                                <li>The government is going to make arrangements to allow Nepalese citizens abroad to vote in periodic elections. The security agencies will be empowered by using modern technology to control all types of criminal activities including terrorism and organized crime, money laundering, violence, cyber-crime, illegal drug trafficking</li>
+                                <li>In the policy and program, the matters related to health include implementation of one doctor and one health institution, to operate OPD services from 8 AM to 8 PM, and building a state-of-the-art hospital that can treat heart and cancer diseases at the provincial level.</li>
+                            </ul>
+                        )}
+                    </ul>
+                    <div className="read-more">
+                        <button className="read-more-button" onClick={toggleReadMore}>
+                            {showMore ? "Read less" : "Read more"}
+                        </button>
                     </div>
+                </div>
+            </div>
+
 
 
                 <div className="aside-right">

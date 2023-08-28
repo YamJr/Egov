@@ -7,7 +7,7 @@ import education3 from "../../images/education3.jpg"
 function Education(){
     return(
         <>
-        <div className="info-title">
+        <div id="education" className="info-title">
             <p>Education Related</p>
         </div>
         <div className="education-info">         
