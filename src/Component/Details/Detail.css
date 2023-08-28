@@ -2,16 +2,20 @@
     display: flex;
     width: 100%;
     height: auto;
+    justify-content: center;
 }
 .Govern
 {
     width: 70%;
     text-align: center;
+    margin-right: 1rem;
+    border-bottom: 2px solid rgb(221, 221, 221);
+    margin-bottom: 1rem;
 }
 .gov-info{
     margin:0px ;
     max-width: 100%;
-    height: 500px;
+    margin-bottom: 2rem;
 }
 .card{
     display: flex;
@@ -35,7 +39,7 @@
 }
 
 .contact-info{
-    width: 29%;
+    width: 10%;
     margin-top: 40px;
 }
 .Info{
@@ -56,7 +60,7 @@
     display: flex;
     width: 100%;
     height: auto;
-    margin-bottom: 90px;
+    margin-bottom: 2rem;
 }
 .aside-left{
         width: 25%;
@@ -109,4 +113,19 @@
     list-style:none;
     padding: 10px;
     margin: 5x;
+}
+
+.read-more {
+    height: 2rem;
+}
+
+.read-more-button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.read-more-button:hover {
+    border: 1px solid #3584cb;
 }
